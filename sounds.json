@@ -1,0 +1,92 @@
+{
+    "defaults": [
+        {
+            "name": "bonk",
+            "uri": "./sounds/bonk.mp3"
+        },
+        {
+            "name": "surprise",
+            "uri": "./sounds/surprise-mf.mp3"
+        },
+        {
+            "name": "fdp",
+            "uri": "./sounds/fdp.mp3"
+        },
+        {
+            "name": "kouisine",
+            "uri": "./sounds/kouisine.mp3"
+        },
+        {
+            "name": "sur",
+            "uri": "sardoche-sur.mp3"
+        },
+        {
+            "name": "honteux",
+            "uri": "./sounds/honteux.mp3"
+        },
+        {
+            "name": "ntm",
+            "uri": "./sounds/ntm.mp3"
+        },
+        {
+            "name": "bruh",
+            "uri": "./sounds/bruh.mp3"
+        },
+        {
+            "name": "dejavu",
+            "uri": "./sounds/dejavu.mp3"
+        },
+        {
+            "name": "oof",
+            "uri": "./sounds/oof.mp3"
+        },
+        {
+            "name": "cheh",
+            "uri": "./sounds/cheh.mp3"
+        },
+        {
+            "name": "tbc",
+            "uri": "./sounds/tbc.mp3"
+        },
+        {
+            "name": "motus",
+            "uri": "./sounds/motus.mp3"
+        },
+        {
+            "name": "sncf",
+            "uri": "./sounds/sncf.mp3"
+        },
+        {
+            "name": "gogole",
+            "uri": "./sounds/gogole.mp3"
+        },
+        {
+            "name": "fbi",
+            "uri": "./sounds/fbi.mp3"
+        },
+        {
+            "name": "anime_wow",
+            "uri": "./sounds/anime-wow.mp3"
+        },
+        {
+            "name": "toctoc",
+            "uri": "./sounds/toctoc.mp3"
+        },
+        {
+            "name": "inception",
+            "uri": "./sounds/inception.mp3"
+        },
+        {
+            "name": "sel",
+            "uri": "./sounds/sel.mp3"
+        },
+        {
+            "name": "sad",
+            "uri": "./sounds/sad.mp3"
+        },
+        {
+            "name": "nope",
+            "uri": "./sounds/nope.mp3"
+        }
+    ]
+}
