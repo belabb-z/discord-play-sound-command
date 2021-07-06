@@ -1,4 +1,4 @@
-import config from './config.json';
+import config from './config';
 import { defaults } from './sounds.json';
 import Discord, { Message, VoiceChannel } from 'discord.js';
 
@@ -20,7 +20,7 @@ client.on('message', async (message: Message) => {
 
             if (arg === 'help' || arg === 'list') {
                 const list: string[] = defaults.map((sound: { name: string; }) => sound.name).sort();
-                message.reply(`Usage: /oparleur <sound or URL>
+                message.reply(`usage: /oparleur <sound or URL>
 List of preset sounds :
 ${list.join('\n')}`);
             } else if (message.member?.voice.channel != null) {
@@ -28,12 +28,12 @@ ${list.join('\n')}`);
                 message.react('👍');
             } else {
                 message.react('🔇');
-                message.reply('You are not in a voice channel.');
+                message.reply('you are not in a voice channel.');
             }
         }
     } catch (e) {
         message.react('☠️');
-        message.reply('Unexpected error: ' + e.message);
+        message.reply('unexpected error: ' + e.message);
     }
 });
 
