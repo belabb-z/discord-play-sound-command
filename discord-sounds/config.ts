@@ -3,7 +3,7 @@ let discordToken;
 let maxSoundDuration;
 
 try {
-    const jsonConfig = JSON.parse(readFileSync('./config.json', 'utf-8'));
+    const jsonConfig = JSON.parse(readFileSync('./discord-sounds/config.json', 'utf-8'));
     discordToken = jsonConfig?.discordToken;
     maxSoundDuration = jsonConfig?.maxSoundDuration;
 } catch {}

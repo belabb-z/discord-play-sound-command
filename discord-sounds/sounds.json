@@ -1,0 +1,92 @@
+{
+    "defaults": [
+        {
+            "name": "bonk",
+            "uri": "./discord-sounds/sounds/bonk.mp3"
+        },
+        {
+            "name": "surprise",
+            "uri": "./discord-sounds/sounds/surprise-mf.mp3"
+        },
+        {
+            "name": "fdp",
+            "uri": "./discord-sounds/sounds/fdp.mp3"
+        },
+        {
+            "name": "kouisine",
+            "uri": "./discord-sounds/sounds/kouisine.mp3"
+        },
+        {
+            "name": "sur",
+            "uri": "./discord-sounds/sounds/sardoche-sur.mp3"
+        },
+        {
+            "name": "honteux",
+            "uri": "./discord-sounds/sounds/honteux.mp3"
+        },
+        {
+            "name": "ntm",
+            "uri": "./discord-sounds/sounds/ntm.mp3"
+        },
+        {
+            "name": "bruh",
+            "uri": "./discord-sounds/sounds/bruh.mp3"
+        },
+        {
+            "name": "dejavu",
+            "uri": "./discord-sounds/sounds/dejavu.mp3"
+        },
+        {
+            "name": "oof",
+            "uri": "./discord-sounds/sounds/oof.mp3"
+        },
+        {
+            "name": "cheh",
+            "uri": "./discord-sounds/sounds/cheh.mp3"
+        },
+        {
+            "name": "tbc",
+            "uri": "./discord-sounds/sounds/tbc.mp3"
+        },
+        {
+            "name": "motus",
+            "uri": "./discord-sounds/sounds/motus.mp3"
+        },
+        {
+            "name": "sncf",
+            "uri": "./discord-sounds/sounds/sncf.mp3"
+        },
+        {
+            "name": "gogole",
+            "uri": "./discord-sounds/sounds/gogole.mp3"
+        },
+        {
+            "name": "fbi",
+            "uri": "./discord-sounds/sounds/fbi.mp3"
+        },
+        {
+            "name": "anime_wow",
+            "uri": "./discord-sounds/sounds/anime-wow.mp3"
+        },
+        {
+            "name": "toctoc",
+            "uri": "./discord-sounds/sounds/toctoc.mp3"
+        },
+        {
+            "name": "inception",
+            "uri": "./discord-sounds/sounds/inception.mp3"
+        },
+        {
+            "name": "sel",
+            "uri": "./discord-sounds/sounds/sel.mp3"
+        },
+        {
+            "name": "sad",
+            "uri": "./discord-sounds/sounds/sad.mp3"
+        },
+        {
+            "name": "nope",
+            "uri": "./discord-sounds/sounds/nope.mp3"
+        }
+    ]
+}
