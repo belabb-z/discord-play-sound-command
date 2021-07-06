@@ -1,6 +1,8 @@
-import config from './config';
-import { defaults } from './sounds.json';
+import http from 'http';
 import Discord, { Message, VoiceChannel } from 'discord.js';
+import config from './config';
+import server from './server';
+import { defaults } from './sounds.json';
 
 const client = new Discord.Client();
 
@@ -65,8 +67,13 @@ function getSoundUri(soundName: string) {
     return sounds.find(sound => sound.name === soundName)?.uri ?? soundName;
 }
 
+server();
+
+process.env.PORT && setInterval(() => {
+    http.get('https://oparleur.herokuapp.com');
+}, 1_500_000);
+
 process.on('unhandledRejection', (error) => {
     console.error(error);
     process.exit(1);
 });
-
